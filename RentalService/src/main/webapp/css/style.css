@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+.container{
+    background-image: url("/carRental/resources/images/background.jpg");
+}
+
+div.p{
+
+    background-colour:red;
+}

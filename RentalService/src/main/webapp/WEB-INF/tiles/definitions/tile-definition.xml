@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/WEB-INF/tiles/template/baseLayout.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<put-attribute name="heading" value="" />
+		<put-attribute name="tagline" value="" />
+		<put-attribute name="navigation"
+			value="/WEB-INF/tiles/template/navigation.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+
+	<definition name="welcome" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="logoimage" value="/resources/image/Logo.img" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/welcome.jsp" />
+	</definition>
+
+	<definition name="login" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="logoimage" value="/resources/image/Logo.img" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+	<definition name="listCars" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/listCars.jsp" />
+	</definition>
+	<definition name="addUser" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/addUser.jsp" />
+	</definition>
+	<definition name="addUser" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/addUser.jsp" />
+	</definition>
+	<definition name="edit/" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/edit.jsp" />
+	</definition>
+	<definition name="userList" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/userList.jsp" />
+	</definition>
+	<definition name="addCar" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/addCar.jsp" />
+	</definition>
+	<definition name="adminHome" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/adminHome.jsp" />
+	</definition>
+	<definition name="addInsurance" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/addInsurance.jsp" />
+	</definition>
+	<definition name="signUp" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/signUp.jsp" />
+	</definition>
+		<definition name="newInsurance" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/addNewInsurance.jsp" />
+	</definition>
+
+		<definition name="finalBill" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/bill.jsp" />
+	</definition>
+		<definition name="reservationlist" extends="baseLayout">
+		<put-attribute name="title" value="HimalyanService" />
+		<put-attribute name="heading" value="Welcome to our Service" />
+		<put-attribute name="tagline" value="Rent a car" />
+		<put-attribute name="body" value="/WEB-INF/views/ReservationList.jsp" />
+	</definition>
+	
+
+
+</tiles-definitions>
